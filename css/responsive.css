@@ -1,0 +1,404 @@
+@media(min-width:320px) and (max-width:575px){
+    nav ul li{
+        text-align: center;
+        z-index: 9999;
+    }
+    
+    #banner_part .overlay .text h1{
+        width: auto;
+        font-size: 25px;
+    }
+    #banner_part .overlay .text p{
+        width: auto;
+    }
+    #banner_part .overlay .text .search{
+        margin-left: 0;
+    }
+    #banner_part .overlay .text .search .button a{
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+    #banner_part .overlay .text .form{
+        font-size: 11px;
+    }
+    #banner_part .overlay .text .form .right{
+        padding-left: 5px;
+    }
+    #banner_part .overlay .text .form{
+        height: 30px;
+    }
+    #banner_part .overlay .text .form .arrow{
+        margin-top: 4px;
+    }
+    #about_part .about{
+        display: inline;
+    }
+    #about_part .about .one{
+        width: 50%;
+        height: 190px;
+        float: left;
+    }
+    #about_part .about .one .overlay .text h6{
+        font-size: 12px;
+    }
+    #about_part .about .one .overlay .text p{
+        font-size: 7px;
+    }
+    #video_part .video{
+        height: 200px;
+    }
+    #video_part .counter_part .counters h1{
+        font-size: 20px;
+    }
+    #video_part .counter_part .counters p{
+        font-size: 7px;
+        margin-left: 0;
+        
+    }
+    #video_part .counter_part .counters p span{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    #history_part .overlay .sub_menu .menus ul{
+        margin-left: 0;
+    }
+    #history_part .overlay .sub_menu .menus ul li a {
+	font-size: 8px;
+	padding: 8px 5px;
+    }
+    #history_part .overlay .sub_menu .menus{
+        padding-bottom: 14px;
+        margin-top: 40px;
+    }
+    #history_part .overlay .sub_menu .v_text .left{
+        margin-top: 100px;
+    }
+    .title h1{
+        font-size: 20px;
+        width: auto;
+    }
+    .title p{
+        width: auto;
+        font-size: 12px;
+    }
+    
+    #service_part .services p{
+        width: auto;
+    }
+    .title h6::after {
+	left: -80px;
+	width: 80px;
+    }
+    .title h6::before {
+	right: -80px;
+	width: 80px;
+    }
+    #admission{
+        display: inline;
+    }
+    #admission .one{
+        width: 100%;
+    }
+    #admission .one .overlay .icon i{
+        margin-left: 0;
+    }
+    #admission .two{
+        width: 100%;
+    }
+    #admission .two .overlay h3{
+        font-size: 24px;
+    }
+    #admission .two .overlay p{
+        font-size: 13px;
+    }
+    #admission .three{
+        width: 100%;
+    }
+    #admission .three .overlay h3{
+        font-size: 24px;
+    }
+    #admission .three .overlay p{
+        font-size: 13px;
+        width: auto;
+    }
+    #client .overlay .comments h2{
+        font-size: 28px;
+    }
+    #client .overlay .comments p{
+        width: auto;
+        font-size: 13px;
+    }
+    #footer_part .copyright .left p{
+        font-size: 14px;
+    }
+    #footer_part .copyright .right p a{
+        font-size: 14px;
+    }
+    .footer{
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media(min-width:576px) and (max-width:767px){
+    nav ul li{
+        text-align: center;
+        z-index: 9999;
+    }
+    
+    #banner_part .overlay .text h1{
+        width: auto;
+        font-size: 30px;
+    }
+    #banner_part .overlay .text p{
+        width: auto;
+    }
+    #banner_part .overlay .text .search{
+        margin-left: 40px;
+    }
+    #banner_part .overlay .text .search .button a{
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+    #banner_part .overlay .text .form{
+        font-size: 11px;
+    }
+    #banner_part .overlay .text .form .right{
+        padding-left: 5px;
+    }
+    #banner_part .overlay .text .form{
+        height: 30px;
+    }
+    #banner_part .overlay .text .form .arrow{
+        margin-top: 4px;
+    }
+    #about_part .about{
+        display: inline;
+    }
+    #about_part .about .one{
+        width: 50%;
+        height: 190px;
+        float: left;
+    }
+    #about_part .about .one .overlay .text h6{
+        font-size: 16px;
+    }
+    #about_part .about .one .overlay .text p{
+        font-size: 12px;
+    }
+    #video_part .video{
+        height: 200px;
+    }
+    #video_part .counter_part .counters h1{
+        font-size: 40px;
+    }
+    #video_part .counter_part .counters p{
+        font-size: 14px;
+        margin-left: 0;
+        
+    }
+    #video_part .counter_part .counters p span{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    #history_part .overlay .sub_menu .menus ul{
+        margin-left: 20px;
+    }
+    #history_part .overlay .sub_menu .menus ul li a {
+	font-size: 12px;
+	padding: 10px 12px;
+    }
+    #history_part .overlay .sub_menu .menus{
+        padding-bottom: 22px;
+        margin-top: 40px;
+    }
+    #history_part .overlay .sub_menu .v_text .left{
+        margin-top: 50px;
+    }
+    .title h1{
+        font-size: 20px;
+        width: auto;
+    }
+    .title p{
+        width: auto;
+        font-size: 12px;
+    }
+    
+    #service_part .services p{
+        width: auto;
+    }
+    .title h6::after {
+	left: -130px;
+	width: 130px;
+    }
+    .title h6::before {
+	right: -130px;
+	width: 130px;
+    }
+    #admission{
+        display: inline;
+    }
+    #admission .one{
+        width: 100%;
+    }
+    #admission .one .overlay .icon i{
+        margin-left: 10px;
+    }
+    #admission .two{
+        width: 100%;
+    }
+    #admission .three{
+        width: 100%;
+    }
+    #client .overlay .comments h2{
+        font-size: 28px;
+    }
+    #client .overlay .comments p{
+        width: auto;
+        font-size: 13px;
+    }
+    #footer_part .copyright .left p{
+        font-size: 14px;
+    }
+    #footer_part .copyright .right p a{
+        font-size: 14px;
+    }
+    .footer{
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media(min-width:768px) and (max-width:991px){
+    
+    nav ul li{
+        text-align: center;
+        z-index: 9999;
+    }
+    #banner_part .overlay .text .search{
+        margin-left: 100px;
+    }
+    
+    .title h6::after {
+	left: -200px;
+	width: 200px;
+    }
+    .title h6::before {
+	right: -200px;
+	width: 200px;
+    }
+    #video_part .counter_part .counters h1{
+        font-size: 25px;
+    }
+    #video_part .counter_part .counters p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    #video_part .counter_part .counters p span{
+        font-size: 25px;
+    }
+    #history_part .overlay .sub_menu .menus ul li a{
+        font-size: 15px;
+    }
+    #history_part .overlay .sub_menu .menus{
+        padding-bottom: 26px;
+        margin-top: 50px;
+    }
+    #service_part .ser-bottom .over h2{
+        font-size: 18px;
+    }
+    #service_part .ser-bottom .over .overlay h2{
+        font-size: 18px;
+    }
+    #admission .two .overlay h3{
+        font-size: 16px;
+    }
+    #admission .two .overlay p{
+        font-size: 12px;
+    }
+    #admission .three .overlay h3{
+        font-size: 16px;
+    }
+    #admission .three .overlay h6{
+        font-size: 12px;
+    }
+    #admission .three .overlay p{
+        font-size: 12px;
+        width: auto;
+    }
+    #admission .one .overlay .icon i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        margin-left: 1px;
+    }
+    #footer_part .overlay .footer{
+        margin-bottom: 30px;
+    }
+    #footer_part .copyright .left p{
+        font-size: 12px;
+    }
+    #footer_part .copyright .left p span a{
+        font-size: 13px;
+    }
+    #footer_part .copyright .right p{
+        margin-left: 10px;
+    }
+    #footer_part .copyright .right p a{
+        font-size: 12px;
+    }
+}
+
+
+@media(min-width:992px) and (max-width:1199px){
+    
+    #banner_part .overlay .text .search{
+        margin-left: 220px;
+    }
+    
+    #video_part .counter_part .counters h1{
+        font-size: 40px;
+    }
+    #video_part .counter_part .counters p span{
+        font-size: 40px;
+    }
+    
+    #service_part .ser-bottom .over h2{
+        font-size: 23px;
+    }
+    #service_part .ser-bottom .over .overlay h2{
+        font-size: 23px;
+    }
+    #admission .one .overlay .icon i{
+        margin-left: 0;
+    }
+    #admission .two .overlay h3{
+        font-size: 25px;
+    }
+    #admission .two .overlay p{
+        font-size: 14px;
+    }
+    
+    #admission .three .overlay h3{
+        font-size: 25px;
+    }
+    #admission .three .overlay h6{
+        font-size: 14px;
+    }
+    #admission .three .overlay p{
+        font-size: 14px;
+        width: auto;
+    }
+    #footer_part .copyright .right p a{
+        font-size: 15px;
+    }
+    
+    
+}
+
+
+
+
+

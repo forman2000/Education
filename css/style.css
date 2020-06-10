@@ -1,0 +1,1114 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    
+}
+
+/*================================================
+                menu part css start
+================================================*/
+#menu_part{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav .container{
+    border-bottom: 1px solid #fff;
+    padding: 0;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff !important;
+    padding: 20px 0px;
+}
+.navbar-brand i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    background: #3bc46a;
+    margin-right: 10px;
+}
+
+nav .fa-bars{
+    color: #3bc46a;
+    font-size: 25px;
+}
+
+nav ul{
+    padding: 20px 0px;
+}
+nav ul li{
+    margin-left: 10px;
+}
+nav ul li a:hover,
+nav ul li.active a{
+    color: #3bc46a !important;
+}
+nav ul li a{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #fff !important;
+}
+
+/*================================================
+                menu part css end
+================================================*/
+/*================================================
+                banner part css start
+================================================*/
+#banner_part{
+    width: 100%;
+    background: url(../images/banner1-img.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner_part .overlay{
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    background: rgba(0, 0, 0, 0.5);
+}
+#banner_part .overlay .text{
+    text-align: center;
+    color: #fff;
+}
+#banner_part .overlay .text h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #3ac56a;
+    width: 570px;
+    margin: 0 auto;
+}
+#banner_part .overlay .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 570px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#banner_part .overlay .text .search{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+#banner_part .overlay .text .form{
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+    background: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #3e3d3d;
+}
+#banner_part .overlay .text .form .left{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+#banner_part .overlay .text .form .left input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: transparent;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+#banner_part .overlay .text .form .right{
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid #767575;
+    padding-left: 10px;
+}
+#banner_part .overlay .text .form .right input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: transparent;
+    margin-top: 6px;
+    text-align: left;
+}
+#banner_part .overlay .text .form .arrow{
+    float: left;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 6px;
+    padding-right: 10px;
+}
+#banner_part .overlay .text .search .button{
+    margin-left: 20px;
+}
+#banner_part .overlay .text .search .button a{
+    display: inline-block;
+    padding: 7px 50px;
+    background: #3ac56a;
+    border-radius: 30px;
+    color: #fff;
+}
+/*================================================
+                 banner part css end
+================================================*/
+/*================================================
+                 about part css start
+================================================*/
+#about_part{
+    width: 100%;
+}
+#about_part .about{
+    display: flex;
+    
+}
+#about_part .about .one{
+    width: 25%;
+    height: 250px;
+    position: relative;
+}
+#about_part .about .one img{
+    width: 100%;
+    height: 100%;
+}
+#about_part .about .one i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background:  rgba(58, 197, 106, 0.8);
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 0;
+    transition: .4s;
+}
+#about_part .about .one .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: .4s;
+}
+#about_part .about .one .overlay .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+#about_part .about .one .overlay .text h6{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#about_part .about .one .overlay .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#about_part .about .one:hover .overlay{
+    width: 0;
+}
+#about_part .about .one:hover .overlay .text{
+    opacity: 0;
+}
+#about_part .about .one:hover .overlay .text h6{
+    font-size: 0;
+}
+#about_part .about .one:hover i{
+    opacity: 1;
+}
+/*================================================
+                  about part css end
+================================================*/
+/*================================================
+                  video part css start
+================================================*/
+#video_part{
+    width: 100%;
+    background: #13131b;
+    padding-bottom: 50px;
+}
+.title{
+    text-align: center;
+    padding-top: 80px;
+}
+.title h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    width: 570px;
+    margin: 0 auto;
+}
+.title p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.title h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #3ac56a;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 50px;
+}
+.title h6::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -380px;
+    transform: translateY(-50%);
+    width: 380px;
+    height: 1px;
+    background: #3ac56a;
+    border-radius: 5px;
+}
+.title h6::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -380px;
+    transform: translateY(-50%);
+    width: 380px;
+    height: 1px;
+    background: #3ac56a;
+    border-radius: 5px;
+}
+#video_part .video{
+    width: 80%;
+    height: 400px;
+    background: url(../images/banner1-img.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+#video_part .video .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+#video_part .video .overlay .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70px;
+    height: 70px;
+    background: rgba(58, 197, 106, 0.6);
+    border-radius: 50%;
+}
+#video_part .video .overlay a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    background: #3ac56a;
+}
+#video_part .counter_part{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#video_part .counter_part .counters h1{
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #3ac56a;
+}
+#video_part .counter_part .counters p {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff; 
+    margin-left: 10px;
+}
+#video_part .counter_part .counters p span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #3ac56a;
+    margin-left: 10px;
+}
+/*================================================
+                   video part css end
+================================================*/
+/*================================================
+                   history part css start
+================================================*/
+#history_part{
+    width: 100%;
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#history_part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.93);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+#history_part .overlay .left h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#history_part .overlay .left h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#history_part .overlay .left p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+}
+#history_part .overlay .left .button{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 30px;
+    background: #3ac56a;
+    border-radius: 20px;
+    margin-top: 50px; 
+}
+#history_part .overlay .sub_menu .menus{
+    width: 92%;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    padding-bottom: 28px;
+}
+#history_part .overlay .sub_menu .menus ul{
+    margin-left: 30px;
+}
+#history_part .overlay .sub_menu .menus ul li{
+    float: left;
+}
+#history_part .overlay .sub_menu .menus ul li a{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 20px;
+    transition: .4s;
+}
+#history_part .overlay .sub_menu .menus ul li.active a,
+#history_part .overlay .sub_menu .menus ul li a:hover{
+    background: #3ac56a;
+}
+#history_part .overlay .sub_menu .v_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#history_part .overlay .sub_menu .v_text .left{
+    width: 40%;
+    height: 200px;
+    position: relative;
+}
+#history_part .overlay .sub_menu .v_text .left .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+#history_part .overlay .sub_menu .v_text .left .overlay .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(58, 197, 106, 0.7);
+}
+#history_part .overlay .sub_menu .v_text .left .overlay i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background: #3ac56a;
+    cursor: pointer;
+}
+#history_part .overlay .sub_menu .v_text .left img{
+    width: 100%;
+    height: 100%;
+}
+#history_part .overlay .sub_menu .v_text .right{
+    width: 57%;
+}
+#history_part .overlay .sub_menu .v_text .right p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+#history_part .overlay .sub_menu .ttt{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 23px;
+    margin-top: 15px;
+}
+/*================================================
+                    history part css end
+================================================*/
+/*================================================
+                    service part css start
+================================================*/
+#service_part{
+    width: 100%;
+    background: #13131b;
+    padding-bottom: 100px;
+}
+#service_part .services{
+    margin-top: 50px;
+}
+#service_part .service_part{
+    margin-bottom: 100px;
+}
+#service_part .services i{
+    font-size: 50px;
+    color: #3ac56a;
+}
+#service_part .services h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #3ac56a;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+#service_part .services p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+#service_part .services-bottom{
+    position: relative;
+}
+#service_part .ser-bottom{
+    margin-right: 20px;
+    width: 100%;
+    height: 150px;
+    background: url(../images/bg.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#service_part .ser-bottom .over{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+#service_part .ser-bottom .over h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 24px;
+    padding: 0 20px;
+    padding-top: 45px;
+}
+#service_part .ser-bottom .over a{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+#service_part .ser-bottom .over .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3ac56a;
+    border-radius: 10px;
+    transition: .4s;
+}
+#service_part .ser-bottom .over .overlay h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 24px;
+    padding: 45px 20px;
+}
+#service_part .ser-bottom .over:hover .overlay{
+    width: 0;
+}
+#service_part .ser-bottom .over:hover .overlay h2{
+    font-size: 0;
+}
+#service_part .prev{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 9999;
+    transform: translateY(-50%);
+}
+#service_part .next{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 9999;
+    transform: translateY(-50%);
+}
+/*================================================
+                     service part css end
+================================================*/
+/*================================================
+                admission part css start
+================================================*/
+#admission{
+    width: 100%;
+    display: flex;
+}
+#admission .one{
+    width: 33%;
+    height: 450px;
+    position: relative;
+}
+#admission .one img{
+    width: 100%;
+    height: 100%;
+}
+#admission .one .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(58, 197, 106, 0.5);
+}
+#admission .one .overlay .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#admission .one .overlay .icon i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: #3ac56a;
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-left: 10px;
+}
+#admission .two{
+    width: 34%;
+    height: 450px;
+    background: url(../images/banner1-img.jpg) center no-repeat;
+    background-size: cover;
+}
+#admission .two .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding-left: 40px;
+    padding-right: 100px;
+}
+#admission .two .overlay h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    
+}
+#admission .two .overlay p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid #3ac56a;
+    padding-bottom: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+#admission .two .overlay p:hover{
+    color: #ea2323;
+}
+#admission .three{
+    width: 33%;
+    height: 450px;
+    background: url(../images/banner1-img.jpg) center no-repeat;
+    background-size: cover;
+}
+#admission .three .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding-left: 40px;
+    padding-right: 20px;
+}
+#admission .three .overlay h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+#admission .three .overlay h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3ac56a;
+}
+#admission .three .overlay p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 380px;
+}
+#admission .three .overlay a{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #3ac56a;
+    border-radius: 5px;
+}
+
+/*================================================
+                admission part css end
+================================================*/
+/*================================================
+                event part css start
+================================================*/
+#event_part{
+    width: 100%;
+    background: #13131b;
+    padding-bottom: 80px;
+}
+#event_part .event{
+    margin-top: 50px;
+}
+#event_part .event .img{
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+#event_part .event .img img{
+    width: 100%;
+    height: 100%;
+    
+}
+#event_part .event .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#event_part .event .img .overlay p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    background: #3ac56a;
+    
+}
+#event_part .event h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+#event_part .event p{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    margin-right: 20px;
+    color: #3ac56a;
+    margin-top: 10px;
+}
+#event_part .event p i{
+    margin-right: 5px;
+}
+/*================================================
+                 event part css end
+================================================*/
+/*================================================
+                 slider part css start
+================================================*/
+#client{
+    width: 100%;
+    background: url(../images/banner2-img.jpg) no-repeat center;
+    background-size: cover;
+}
+#client .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 150px 0px 200px 0px;
+}
+#client .overlay .imgs{
+    width: 400px;
+    margin: 0 auto;
+}
+#client .overlay .imgs img{
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+#client .overlay .imgs  .slick-current {
+    transform: scale(1.3);
+    transition: .4s;
+}
+#client .overlay .comments h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#client .overlay .comments{
+    transition: .4s;
+}
+
+#client .overlay .comments h2 span{
+    font-size: 14px;
+    font-weight: 400;
+}
+#client .overlay .comments p{
+    width: 670px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f1f1f1;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#client ul{
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#client ul li{
+    float: left;
+    margin-left: 10px;
+}
+#client .slick-dots li button{
+    font-size: 0;
+    margin-top: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: 0;
+    cursor: pointer;
+}
+#client .slick-dots li.slick-active button{
+    border: 2px solid #fff;
+    position: relative;
+}
+#client .slick-dots li.slick-active button::after{
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    transform: translate(-50%,-50%);
+}
+/*================================================
+                  slider part css end
+================================================*/
+/*================================================
+                 news part css start
+================================================*/
+#news_part{
+    width: 100%;
+    background: #13131b;
+    padding-bottom: 80px;
+}
+#news_part .news{
+    margin-top: 50px;
+}
+#news_part .news .img{
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+#news_part .news .img img{
+    width: 100%;
+    height: 100%;
+    
+}
+#news_part .news .img .overlay{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 65px;
+    background: #3ac56a;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+#news_part .news .img .overlay h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#news_part .news .img .overlay h6{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#news_part .news h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+#news_part .news p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #3ac56a;
+    margin-top: 10px;
+}
+#news_part .news p span{
+    margin-left: 20px;
+}
+#news_part .news p i{
+    margin-right: 5px;
+}
+/*================================================
+                  news part css end
+================================================*/
+/*================================================
+                  footer part css start
+================================================*/
+#footer_part{
+    width: 100%;
+    background: url(../images/footerbg.jpg) no-repeat;
+    background-size: cover;
+}
+#footer_part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding-top: 100px;
+    color: #fff;
+}
+#footer_part .overlay .footer h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #3ac56a;
+    margin-bottom: 30px;
+}
+#footer_part .overlay .footer p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#footer_part .overlay .footer .fslider p{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+#footer_part .overlay .footer p a{
+    color: #fff;
+}
+#footer_part .overlay .footer p span{
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    margin-right: 10px;
+}
+#footer_part .overlay .footer .fslider{
+    position: relative;
+}
+#footer_part ul{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#footer_part ul li{
+    float: left;
+    margin-left: 10px;
+}
+#footer_part ul li button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    
+}
+#footer_part .copyright{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid #fff;
+    padding: 20px 0px;
+    
+}
+#footer_part .copyright .left{
+    width: 60%;
+}
+#footer_part .copyright .left p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+#footer_part .copyright .left p span a{
+    font-size: 16px;
+    color: #3ac56a;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#footer_part .copyright .right{
+    width: 40%;
+}
+#footer_part .copyright .right p{
+    display: inline-block;
+    margin-left: 20px;
+}
+#footer_part .copyright .right p a{
+    display: inline-block;
+    color: #f1f1f1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    
+}
+/*================================================
+                   footer part css end
+================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
